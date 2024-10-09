@@ -37,7 +37,7 @@ class Cal implements ActionListener {
         frame.setSize(400, 630);
         frame.setLocationRelativeTo(null);
         
-        Image image = Toolkit.getDefaultToolkit().getImage("src\\Calculator_512.png");
+        Image image = Toolkit.getDefaultToolkit().getImage("src\\gui\\Calculator_512.png");
         frame.setIconImage(image);
         
         Font font1 = new Font("MS Outlook", Font.BOLD, 30);
